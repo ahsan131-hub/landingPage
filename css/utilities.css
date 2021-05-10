@@ -1,0 +1,186 @@
+/* utilities */
+
+.container {
+    overflow: auto;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.card {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .2);
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--secondary-color);
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px #fff solid;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.btn:hover {
+    transform: scale(.98);
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* margin  */
+
+.m-1 {
+    margin: 1rem;
+}
+
+.m-2 {
+    margin: 1.5rem;
+}
+
+.m-3 {
+    margin: 2rem;
+}
+
+.m-4 {
+    margin: 3rem;
+}
+
+.m-5 {
+    margin: 4rem;
+}
+
+
+/* padding  */
+
+.py-1 {
+    padding: 1rem;
+}
+
+.py-2 {
+    padding: 1.5rem;
+}
+
+.py-3 {
+    padding: 2rem;
+}
+
+.py-4 {
+    padding: 3rem;
+}
+
+.py-5 {
+    padding: 4rem;
+}
+
+
+/* margin  */
+
+.my-1 {
+    margin: 1rem 0;
+}
+
+.my-2 {
+    margin: 1.5rem 0;
+}
+
+.my-3 {
+    margin: 2rem 0;
+}
+
+.my-4 {
+    margin: 3rem 0;
+}
+
+.my-5 {
+    margin: 4rem 0;
+}
+
+.bg-primary,
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.bg-third {
+    background-color: var(--third-color);
+    color: var(--secondary-color);
+}
+
+.bg-secondary,
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: #333
+}
+
+.bg-dark,
+.btn-dark {
+    background-color: var(--dark-color);
+    color: var(--secondary-color);
+}
+
+.bg-light,
+.btn-light {
+    background-color: var(--light-color);
+    color: #333
+}
+
+.btn-light a,
+.bg-light a,
+.bg-dark a,
+.btn-dark a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-primary a,
+.btn-primary a {
+    color: #fff;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.sm {
+    font-size: 1rem;
+}
+
+.md {
+    font-size: 2rem;
+}
+
+.lg {
+    font-size: 3rem;
+}
+
+.xl {
+    font-size: 4rem;
+}
